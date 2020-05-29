@@ -170,7 +170,7 @@ alert( joinArgs("What's up", "Mr.", "President") ); // "What's up Mr.President"
 
 ```javascript
 let getFullName = function(param1, param2) {
-  alert(this[param1] + " " + this[param1]);
+  alert(this[param1] + " " + this[param2]);
 };
 
 let user = {
