@@ -1,6 +1,6 @@
 ---
 title: Синтаксис, переменные, типы
-date: "2020-05-07"
+date: "2020-07-24"
 description: "Обзор синтаксиса базовых конструкций. Переменные. Типы"
 ---
 
@@ -9,7 +9,9 @@ description: "Обзор синтаксиса базовых конструкц�
 ```javascript
 // Two slashes start single-line comments
 
-var x; // declaring a variable
+var y;
+let x; // declaring a variable
+const z = 5;
 
 x = 3 + y; // assigning a value to the variable `x`
 
@@ -118,7 +120,6 @@ typeof Symbol()      === "symbol";    // true
 
 // Strange
 typeof null === "object"; // true
-
 ```
 
 ### Boolean
