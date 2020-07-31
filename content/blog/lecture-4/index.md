@@ -1,13 +1,13 @@
 ---
 title: Объекты. Массивы
-date: "2020-05-14"
+date: "2020-07-31"
 description: "Рассмотрение объектов и массивов."
 ---
 
 ## Объекты
 
 Объект (хэш-таблица, словарь, ассоциативный массив) - структура для хранения данных в виде
-набора неупорядоченных именнованных значений, представляющих собой пары формата
+набора неупорядоченных именованных значений, представляющих собой пары формата
 
 { ключ: значение }
 
@@ -444,7 +444,7 @@ if ([] && {}) {
 }
 ```
 
-### Строкове преобразование toString()
+### Строковое преобразование toString()
 #### Объекты
 
 Стандартным строковым представлением объекта является строка "[Object object]".
@@ -470,12 +470,9 @@ toString
 ### Материалы для прочтения 
 
 - Объекты https://learn.javascript.ru/object
-- Перебор свойств объекта https://learn.javascript.ru/object-for-in
-- Ссылочная связь https://learn.javascript.ru/object-reference
-- Преобразование объектов https://learn.javascript.ru/object-conversion
-- Дескрипторы https://learn.javascript.ru/descriptors-getters-setters
+- Преобразование объектов https://learn.javascript.ru/object-toprimitive
+- Дескрипторы https://learn.javascript.ru/object-properties
 - Массивы https://learn.javascript.ru/array
 - Методы работы с массивом https://learn.javascript.ru/array-methods
-- Объекты ES6(часть за прототип и за super можете пропустить) https://learn.javascript.ru/es-object
-- Деструктуризация https://learn.javascript.ru/destructuring
+- Деструктуризация hhttps://learn.javascript.ru/destructuring-assignment
 - JSON https://learn.javascript.ru/json
