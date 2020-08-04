@@ -1,6 +1,6 @@
 ---
 title: Функции
-date: "2020-05-21"
+date: "2020-08-04"
 description: "Рассмотрение функций."
 ---
 
@@ -217,7 +217,7 @@ alert( checkAge(10) );
 ```
 
 Если функция не возвращает значение явно с помощью return, то есть результат ее работы
-неопределен, функция возвращает undefined
+неопределён, функция возвращает undefined
 
 #### Принудительный выход из функции
 
@@ -349,13 +349,9 @@ function getConfirmation(question, ok, cancel) {
 
 getConfirmation(
   "Are you sure?", 
-  () => {
-    console.log("You sure");
-  },
-  () => {
-    console.log("You're not sure");
-  }
-)
+  () => { console.log("You sure"); },
+  () => { console.log("You're not sure"); }
+);
 ```
 
 #### Функция как результат
@@ -372,20 +368,6 @@ function outer() {
 let inner = outer();
 console.log(inner);
 inner();
-```
-
-### Anonymous self-invoked functions
-
-Анонимные самовызывающиеся функции (IIFE, Immediately Invoked Function Expression)
-вызываются автоматически, когда интерпретатор доходит до них. Такие функции зачастую
-используются для замыкания области видимости переменных
-
-```javascript
-let greeting = (function(name) {
-  return "Hi, " + name;
-})("Ivan");
-
-alert(greeting); // Hi, Ivan
 ```
 
 ### Область видимости переменных
@@ -430,7 +412,7 @@ alert(b); // ReferenceError: b is not defined
 Все локальные переменные функции при ее вызове попадают в специальный внутренний объект
 LexicalEnvironment (лексическое окружение, объект переменных). Во время выполнения функции
 переменные в объекте LexicalEnvironment получают значения. После выполнения функции объект
-уничтожается и память очищается.
+уничтожается, и память очищается.
 
 Код внутри функции имеет доступ как к локальным переменным, так и к переменным из внешней по
 отношению к функции области видимости. Ссылка на внешний объект переменных хранится в
@@ -466,7 +448,7 @@ user = "Harry Potter";
 hello();
 ```
 
-Поиск в области видимости прекращается, как только найдено первое совпадание. Несколько
+Поиск в области видимости прекращается, как только найдено первое совпадение. Несколько
 переменных могут иметь одно имя идентификатора и располагаться в разных слоях вложенных
 областей видимости. В таком случае внутренний идентификатор имеет приоритет по отношению ко
 внешнему – это называется "затенение"(shadowing)
@@ -499,7 +481,7 @@ function createCounter() {
   }
 }
 
-var counter = createCounter();
+let counter = createCounter();
 
 alert(counter()); // 1
 alert(counter()); // 2
@@ -509,9 +491,8 @@ alert(counter()); // 3
 ### Материалы для прочтения 
 
 - Функции https://learn.javascript.ru/function-basics
-- Функциональные выражения https://learn.javascript.ru/function-declaration-expression
-- Именованные функциональные выражения https://learn.javascript.ru/named-function-expression
-- О замыкании, области видимости https://learn.javascript.ru/functions-closures
-- Функции ES6 https://learn.javascript.ru/es-function
-- Псевдомассив arguments https://learn.javascript.ru/arguments-pseudoarray
-- Перебирающие методы массива https://learn.javascript.ru/array-iteration
+- Функциональные выражения https://learn.javascript.ru/function-expressions
+- Именованные функциональные выражения https://learn.javascript.ru/function-object
+- О замыкании, области видимости https://learn.javascript.ru/closure
+- Псевдомассив arguments https://learn.javascript.ru/rest-parameters-spread-operator
+- Перебирающие методы массива https://learn.javascript.ru/array-methods
