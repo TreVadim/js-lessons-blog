@@ -1,6 +1,6 @@
 ---
 title: Контекст вызова. Рекурсия
-date: "2020-05-28"
+date: "2020-08-07"
 description: "Рассмотрение работы this и работы рекурсии"
 ---
 
@@ -380,7 +380,7 @@ console.log(fibo(20));
 ### Материалы для прочтения 
 
 - Методы объектов, this https://learn.javascript.ru/object-methods
-- Call, Apply https://learn.javascript.ru/call-apply
+- Call, Apply https://learn.javascript.ru/call-apply-decorators
 - Bind https://learn.javascript.ru/bind
 - setTimeout/setInterval https://learn.javascript.ru/settimeout-setinterval
 - Рекурсия https://learn.javascript.ru/recursion
