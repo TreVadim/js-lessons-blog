@@ -295,7 +295,70 @@ let isOk = confirm("Вопрос");
 ```
 
 #### Пример код стайла
-![code_style](./code_style.png)
+```javascript
+const a = 5;
+let b = "test", c = 45, d;
+
+2 + 5 === 7
+
+// loops
+do {
+  let g = 10;
+} while (a < 10)
+
+while (a < 10 ) {
+  let g = 10;
+}
+
+for (let i = 0; i < 10; i++) {
+  let g = 10;
+}
+
+// if..else, ?, switch
+
+if (a < 5) {
+  let g = 10;
+} else if (c < 10) {
+  if (!c) {
+    let r = 11;
+  }
+}
+
+// or
+
+if (a > 10) alert("!");
+else alert("?");
+
+a > 10 ? alert("!") : alert("?");
+
+switch (a) {
+  case 5: {
+    alert("5");
+    break;
+  }
+  case 10: {
+    alert("10");
+    break;
+  }
+  default: {
+    alert("default");
+  }
+}
+
+// functions
+
+function myFunc(a, b) {
+  return a + b;
+}
+
+let myFunc = (a, b) => {
+  return a + b;
+}
+
+let myFunc = (a, b) => a + b;
+
+let myFunc = a => a * 5;
+```
 
 ### Материалы для прочтения 
 
