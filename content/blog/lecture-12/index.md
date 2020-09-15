@@ -1,6 +1,6 @@
 ---
 title: Bundlers, Task managers, Package managers
-date: "2020-02-17"
+date: "2020-09-15"
 description: "Webpack, Gulp, npm/yarn"
 ---
 
