@@ -1,6 +1,6 @@
 ---
 title: TypeScript, React, Angular, Vue
-date: "2020-02-24"
+date: "2020-09-22"
 description: "Ознакомление TypeScript, React, Angular, Vue"
 ---
 
