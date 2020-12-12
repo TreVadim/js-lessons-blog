@@ -330,7 +330,7 @@ for (let i = 0; i < 10; i++) {
 outer:
 for (let i = 0; i < 10; i++) {
   let k = 5;
-  for (let j = 0; j < 10; i++) { // внутренний цикл
+  for (let j = 0; j < 10; j++) { // внутренний цикл
     if (j > 5) {
       break; // внутренний break;
     } else {
