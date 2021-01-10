@@ -1,6 +1,6 @@
 ---
 title: JavaScript в браузере
-date: "2020-08-21"
+date: "2021-01-13"
 description: "Знакомство с DOM"
 ---
 
