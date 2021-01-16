@@ -139,8 +139,8 @@ let parent = el.parentNode;
 #### Получение соседних элементов
 
 ```javascript
-let previous = el.previousSibling;
-let next = el.nextSibling;
+let previous = el.previousElementSibling;
+let next = el.nextElementSibling;
 ```
 
 #### Получение определенного родителя
