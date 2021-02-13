@@ -1,6 +1,6 @@
 ---
 title: React. Lifecycle. Key. Ref
-date: "2020-10-02"
+date: "2020-02-13"
 description: Ознакомление с хуками жизненного цикла
 ---
 
