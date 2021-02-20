@@ -1,6 +1,6 @@
 ---
-title: React. React-thunk. Routing
-date: "2020-10-09"
+title: React. Redux-thunk. Routing
+date: "2021-02-20"
 description: Асинхронные экшены и роутинг
 ---
 
