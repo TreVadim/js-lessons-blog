@@ -1,6 +1,6 @@
 ---
 title: Синтаксис, переменные, типы
-date: "2020-12-02"
+date: "2021-06-06"
 description: "Обзор синтаксиса базовых конструкций. Переменные. Типы"
 ---
 
@@ -101,7 +101,8 @@ volatile | while | with | yield |
     - boolean
     - number
     - string
-    - symbol -- added in ES6!
+    - symbol
+    - BigInt
 - И Объект:
     - object
     
