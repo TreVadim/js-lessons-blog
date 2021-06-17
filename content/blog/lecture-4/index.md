@@ -1,6 +1,6 @@
 ---
 title: Объекты. Массивы
-date: "2020-12-12"
+date: "2021-06-17"
 description: "Рассмотрение объектов и массивов."
 ---
 
@@ -471,8 +471,8 @@ toString
 
 - Объекты https://learn.javascript.ru/object
 - Преобразование объектов https://learn.javascript.ru/object-toprimitive
-- Дескрипторы https://learn.javascript.ru/object-properties
+- Дескрипторы https://learn.javascript.ru/property-descriptors
 - Массивы https://learn.javascript.ru/array
 - Методы работы с массивом https://learn.javascript.ru/array-methods
-- Деструктуризация hhttps://learn.javascript.ru/destructuring-assignment
+- Деструктуризация https://learn.javascript.ru/destructuring-assignment
 - JSON https://learn.javascript.ru/json
