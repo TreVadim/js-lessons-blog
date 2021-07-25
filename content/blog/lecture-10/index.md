@@ -1,6 +1,6 @@
 ---
 title: DOM манипуляции
-date: "2021-01-16"
+date: "2021-07-25"
 description: "Работа с DOM"
 ---
 
@@ -134,13 +134,6 @@ console.log(text);
 ```javascript
 let el = document.querySelector('div');
 let parent = el.parentNode;
-```
-
-#### Получение соседних элементов
-
-```javascript
-let previous = el.previousElementSibling;
-let next = el.nextElementSibling;
 ```
 
 #### Получение определенного родителя
