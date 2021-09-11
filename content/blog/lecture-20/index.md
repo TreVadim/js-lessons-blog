@@ -1,6 +1,6 @@
 ---
 title: React. Context API. Portals
-date: "2021-02-27"
+date: "2021-09-09"
 description: Создание portals и работа с Context API
 ---
 
