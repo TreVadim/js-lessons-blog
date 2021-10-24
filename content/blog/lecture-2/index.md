@@ -1,6 +1,6 @@
 ---
 title: Синтаксис, переменные, типы
-date: "2021-06-06"
+date: "2021-10-24"
 description: "Обзор синтаксиса базовых конструкций. Переменные. Типы"
 ---
 
@@ -28,25 +28,6 @@ if (x === 0) { // Is `x` equal to zero?
 function baz(a, b) {
    return a + b;
 }
-```
-
-## Инструкции и Выражения (statements and expressions)
-
-```javascript
-var x // инструкция
-
-32*7 // выражение
-
-// инструкция
-if (y >= 0) {
-  x = y;
-} else {
-  x = -y;
-}
-var x = y >= 0 ? y : -y; // выражение
-
-myFunction(y >= 0 ? y : -y) // выражение
-
 ```
 
 ## Идентификаторы и имена переменных
@@ -251,12 +232,6 @@ Function declaration -  function myFunc () {}
 Function expression -   var myFunc = function () {} or let myFunc = () => {}
 
 Function constructor  var myFunc = new Function(‘a’, ‘b’, ‘return a+b’)
-
-### Инструкции
-
-- Объявление переменных и присваивание значений (declaring and assigning)
-- Циклы (Loops)
-- Условия (Conditionals)
 
 ### Условия
 
