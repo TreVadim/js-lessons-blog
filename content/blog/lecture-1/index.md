@@ -1,6 +1,6 @@
 ---
 title: Hello world
-date: "2021-10-20"
+date: "2021-12-03"
 description: "Знакомство с курсом"
 ---
 
