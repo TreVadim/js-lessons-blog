@@ -1,6 +1,6 @@
 ---
 title: React. Hooks
-date: "2021-09-12"
+date: "2021-12-23"
 description: Обзор хуков и работа с ними
 ---
 

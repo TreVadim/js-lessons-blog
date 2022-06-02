@@ -1,6 +1,6 @@
 ---
 title: React. Введение
-date: "2021-08-08"
+date: "2021-12-16"
 description: "Знакомство с React"
 ---
 
