@@ -1,6 +1,6 @@
 ---
 title: React. Redux-thunk. Routing
-date: "2021-12-20"
+date: "2021-11-16"
 description: Асинхронные экшены и роутинг
 ---
 

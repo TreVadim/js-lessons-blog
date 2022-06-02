@@ -1,6 +1,6 @@
 ---
 title: DOM манипуляции
-date: "2021-12-12"
+date: "2021-11-24"
 description: "Работа с DOM"
 ---
 

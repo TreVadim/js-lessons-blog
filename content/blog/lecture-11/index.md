@@ -1,6 +1,6 @@
 ---
 title: Взаимодействие с сервером
-date: "2021-12-13"
+date: "2021-11-23"
 description: "Ajax XMLHttpRequest Promise Fetch"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: React. JSX
-date: "2021-12-17"
+date: "2021-11-19"
 description: "JSX разметка"
 ---
 

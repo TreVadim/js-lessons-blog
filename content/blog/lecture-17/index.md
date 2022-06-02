@@ -1,6 +1,6 @@
 ---
 title: React. MVC. Redux
-date: "2021-12-19"
+date: "2021-11-17"
 description: Роль React в MVC, Redux для управления состоянием приложения
 ---
 
