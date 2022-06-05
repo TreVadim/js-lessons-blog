@@ -1,7 +1,7 @@
 ---
-title: TypeScript
+title: Types, Functions
 date: "2021-11-11"
-description: Types, Functions
+description: More Types, Function types
 ---
 
 ## Types
